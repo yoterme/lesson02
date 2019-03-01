@@ -1,0 +1,18 @@
+<script>
+	
+	var phones = ["Apple", "Nokia", "Samsung", "LG", "HTC", "Lenovo", "Sony", "Fly", "Microsoft", "Huawei"].map(function(element){
+		return [element, (Math.random() * 1000).toFixed(0) + "$" ];
+	});
+	
+	phones.forEach(function(element){ console.log(element);});
+	
+	//phones содержит массив со списком телефонов, каждый элемент которого тоже массив состоящий их названия и цены телефона. Вам необходимо написать код который отсортирует массив phones по возврастанию цены. Цены генерируются автоматически (каждый раз разные). Ваш код можно писать только в отведённом месте, править остальной код нельзя. Вид массива [["Apple", "233$"], ["Nokia", "315$"]... и т.д.]
+	//Код можно писать после этой строки//
+	
+	
+	//Код можно писать до этой строки//
+	
+	console.log("Вывод после сортировки: ");
+	phones.forEach(function(element){ console.log(element);});
+	
+</script>
